@@ -17,7 +17,7 @@ namespace AdapterDesignPattern1
             };
 
             ITarget target = new EmployeeAdapter();
-            Console.WriteLine("HR system passes employee string array to Adapter\n");
+            Console.WriteLine("HR system passes employee string array to Adapter---\n");
             target.ProcessCompanySaary(employeesArray);
 
 
